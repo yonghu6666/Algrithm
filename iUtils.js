@@ -1,6 +1,6 @@
 var iUtils = {};
 
-iUtils.randomInt = function () {
+iUtils.randomInt = function (_min, _max) {
     var min = _min;
     var max = _max;
     var range = max - min;
